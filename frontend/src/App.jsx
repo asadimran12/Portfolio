@@ -108,7 +108,7 @@ function App() {
               <img src={profilePic} alt="Asad Imran" className="profile-image" />
             </div>
             <h1 className="name">Asad Imran</h1>
-            <h2 className="title">Software Engineer</h2>
+            <h2 className="title">Junior Software Engineer</h2>
             <p className="bio">
               Passionate developer specializing in full-stack backend development, AI integration, and building robust production systems. Let's build something amazing.
             </p>
