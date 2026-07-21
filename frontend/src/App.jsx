@@ -27,7 +27,7 @@ function App() {
   const projects = [
     {
       title: "MedINova",
-      subtitle: "Offline AI Chatbot (FYP In Process)",
+      subtitle: "Offline AI Chatbot for Health Assistance (FYP)",
       desc: "An offline AI-powered health chatbot app using React Native, FastAPI, MongoDB. It features distilled Qwen for chat and PaddleOCR for text extraction, supporting both online and offline modes.",
       tags: ["React Native", "FastAPI", "MongoDB", "AI"]
     },
@@ -51,7 +51,7 @@ function App() {
     {
       title: "BS in CS",
       institution: "University of Gujrat",
-      desc: "Currently in 8th Semester • CGPA: 2.97/4.0",
+      desc: "Graduated • CGPA: 3.03/4.0",
       year: "2022-2026",
       type: "Education"
     },
@@ -78,7 +78,7 @@ function App() {
   const skills = [
     {
       category: "Languages & Frameworks",
-      items: ["Python", "JavaScript", "React.js", "Node.js", "Express.js", "Next.js", "Django", "FastAPI", "Generative AI"]
+      items: ["Python", "JavaScript", "React.js", "Node.js", "Express.js", "Next.js", "FastAPI"]
     },
     {
       category: "Databases",
@@ -108,7 +108,7 @@ function App() {
               <img src={profilePic} alt="Asad Imran" className="profile-image" />
             </div>
             <h1 className="name">Asad Imran</h1>
-            <h2 className="title">Junior Software Engineer</h2>
+            <h2 className="title">Associate Software Engineer</h2>
             <p className="bio">
               Passionate developer specializing in full-stack backend development, AI integration, and building robust production systems. Let's build something amazing.
             </p>
