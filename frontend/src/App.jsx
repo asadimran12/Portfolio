@@ -86,7 +86,7 @@ function App() {
     },
     {
       category: "Additional Tools",
-      items: ["Git", "VS Code", "Postman", "Google Antigravity", "Docker"]
+      items: ["Git", "VS Code", "Postman", "Google Antigravity", "Docker's Basics"]
     },
     {
       category: "Soft Skills",
