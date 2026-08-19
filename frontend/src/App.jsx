@@ -26,6 +26,12 @@ function App() {
 
   const projects = [
     {
+      title: "YouTube Video Q&A",
+      subtitle: "Retrieval-Augmented Generation (RAG) System",
+      desc: "An intelligent YouTube transcript Q&A application powered by Streamlit and LangChain. Extracts video subtitles via youtube-transcript-api, creates vector embeddings using HuggingFace and cached vector DB indices, and generates accurate, context-aware answers using Google Gemini API (gemini-3-flash-preview).",
+      tags: ["Generative AI", "LangChain", "Gemini API", "Vector DB", "RAG", "Streamlit", "Python"]
+    },
+    {
       title: "MedINova",
       subtitle: "Offline AI Chatbot for Health Assistance (FYP)",
       desc: "An offline AI-powered health chatbot app using React Native, FastAPI, MongoDB. It features distilled Qwen for chat and PaddleOCR for text extraction, supporting both online and offline modes.",
@@ -77,8 +83,12 @@ function App() {
 
   const skills = [
     {
+      category: "Generative AI & LLMs",
+      items: ["Generative AI", "LangChain", "RAG Pipeline", "Google Gemini API", "Vector DB", "HuggingFace Embeddings", "Prompt Engineering"]
+    },
+    {
       category: "Languages & Frameworks",
-      items: ["Python", "JavaScript", "React.js", "Node.js", "Express.js", "Next.js", "FastAPI"]
+      items: ["Python", "JavaScript", "React.js", "Node.js", "Express.js", "Next.js", "FastAPI", "Streamlit"]
     },
     {
       category: "Databases",
@@ -108,9 +118,9 @@ function App() {
               <img src={profilePic} alt="Asad Imran" className="profile-image" />
             </div>
             <h1 className="name">Asad Imran</h1>
-            <h2 className="title">Full Stack Developer</h2>
+            <h2 className="title">Generative AI & Full Stack Engineer</h2>
             <p className="bio">
-              Passionate developer specializing in full-stack backend development, AI integration, and building robust production systems. Let's build something amazing.
+              Passionate engineer specializing in Generative AI, RAG architectures, full-stack web development, and building robust production-ready AI applications. Let's build something amazing.
             </p>
             <div className="social-links">
               <a href="https://www.linkedin.com/in/asad-imran-152638371" target="_blank" rel="noopener noreferrer" className="social-btn linkedin-btn">
