@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import profilePic from './assets/profile.jpeg';
+import medinovaApk from './assets/app-universal-debug.apk';
 
 function App() {
   const experiences = [
@@ -35,7 +36,8 @@ function App() {
       title: "MedINova",
       subtitle: "Offline AI Chatbot for Health Assistance (FYP)",
       desc: "An offline AI-powered health chatbot app using React Native, FastAPI, MongoDB. It features distilled Qwen for chat and PaddleOCR for text extraction, supporting both online and offline modes.",
-      tags: ["React Native", "FastAPI", "MongoDB", "AI"]
+      tags: ["React Native", "FastAPI", "MongoDB", "AI"],
+      download: medinovaApk
     },
     {
       title: "EliteDrive",
@@ -190,6 +192,11 @@ function App() {
                 {proj.link && (
                   <a href={proj.link} target="_blank" rel="noopener noreferrer" className="project-link">
                     View Project ↗
+                  </a>
+                )}
+                {proj.download && (
+                  <a href={proj.download} download="MedINova.apk" className="project-link">
+                    Download APK ↓
                   </a>
                 )}
               </div>
