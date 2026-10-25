@@ -155,7 +155,7 @@ function App() {
         </section>
 
         {/* Experience Section */}
-        <section className="section">
+        {/* <section className="section">
           <h3 className="section-title">
             <span className="title-text">Professional Experience</span>
           </h3>
@@ -171,7 +171,7 @@ function App() {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Projects Section */}
         <section className="section">
